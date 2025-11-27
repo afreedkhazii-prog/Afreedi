@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maski Muslim Survey - Maski Youth Committee</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body style="font-family: Arial; padding: 15px;">
+
+    <h2>Maski Muslim Survey</h2>
+    <p>Conducted by: <b>Maski Youth Committee</b></p>
+    <hr>
+
+    <form>
+
+        <label>1. Area / Mohalla</label><br>
+        <input type="text" name="area" style="width:100%; padding:6px;"><br><br>
+
+        <label>2. Head of Family Name</label><br>
+        <input type="text" name="headOfFamily" style="width:100%; padding:6px;"><br><br>
+
+        <label>3. Any document correction needed?</label><br>
+        <select name="documentCorrection" style="width:100%; padding:6px;">
+            <option value="">Select</option>
+            <option value="Aadhaar">Aadhaar</option>
+            <option value="Voter ID">Voter ID</option>
+            <option value="Ration Card">Ration Card</option>
+            <option value="Other">Other</option>
+            <option value="None">None</option>
+        </select>
+        <br><br>
+
+        <label>4. Old-age / Widow / Disability Pension</label><br>
+        <select name="pension" style="width:100%; padding:6px;">
+            <option value="">Select</option>
+            <option value="None">None</option>
+            <option value="Old-age">Old-age</option>
+            <option value="Widow">Widow</option>
+            <option value="Disability">Disability</option>
+        </select>
+        <br><br>
+
+        <label>5. Education Level</label><br>
+        <select name="education" style="width:100%; padding:6px;">
+            <option value="">Select</option>
+            <option value="No Education">No Education</option>
+            <option value="Primary">Primary</option>
+            <option value="High School">High School</option>
+            <option value="PUC">PUC</option>
+            <option value="Graduation">Graduation</option>
+            <option value="Post Graduation">Post Graduation</option>
+        </select>
+        <br><br>
+
+        <label>6. Phone Number</label><br>
+        <input type="text" name="phone" style="width:100%; padding:6px;"><br><br>
+
+        <label>7. Total Number of Family Members</label><br>
+        <input type="number" name="familyMembers" style="width:100%; padding:6px;"><br><br>
+
+        <label>8. Any Government Scheme Help Needed</label><br>
+        <input type="text" name="govtHelp" style="width:100%; padding:6px;"><br><br>
+
+        <label>9. Remarks / Special Request</label><br>
+        <textarea name="remarks" style="width:100%; padding:6px;" rows="3"></textarea><br><br>
+
+        <button type="submit" style="padding:8px 16px;">Submit</button>
+        <button type="reset" style="padding:8px 16px;">Reset</button>
+
+    </form>
+
+    <br><br>
+    <hr>
+    <p><b>Maski Youth Committee</b><br>
+    Contact: 9019641110</p>
+
+</body>
+</html>
